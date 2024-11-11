@@ -9,7 +9,9 @@ var isValid = function(s) {
         ']':'['
     }
     const stack=[];
-    for (let char of s)
+    for (let char of s){
+        
+    }
 };
 
 module.exports = { isValid };
