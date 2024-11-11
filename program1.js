@@ -15,6 +15,8 @@ var isValid = function(s) {
             if(bracketMap[char]!==topElement){
                 return false;
             }
+        }else{
+            stack.push(char);
         }
     }
 };
