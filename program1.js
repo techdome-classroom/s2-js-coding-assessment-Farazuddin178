@@ -8,7 +8,8 @@ var isValid = function(s) {
         '}':'{',
         ']':'['
     }
-    const stack=
+    const stack=[];
+    for (let char of s)
 };
 
 module.exports = { isValid };
