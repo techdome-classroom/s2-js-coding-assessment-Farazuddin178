@@ -7,7 +7,7 @@ var isValid = function(s) {
         ')':'(',
         '}':'{',
         ']':'['
-    }
+    };
     const stack=[];
     for (let char of s){
         
