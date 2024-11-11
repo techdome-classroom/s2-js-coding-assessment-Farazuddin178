@@ -4,7 +4,8 @@
  */
 var isValid = function(s) {
     const bracketMap={
-        ')'
+        ')':'(',
+        '}'
     }
     
 };
